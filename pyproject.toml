@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robo-cfo"
+version = "0.1.0"
+description = "Bespoke AI finance agent: bookkeeper, tax/EA, and CFO"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi==0.109.0",
+    "uvicorn[standard]==0.27.0",
+    "sqlalchemy==2.0.23",
+    "psycopg[binary]==3.1.14",
+    "alembic==1.13.1",
+    "python-dotenv==1.0.0",
+    "pydantic==2.5.2",
+    "pydantic-settings==2.1.0",
+    "passlib[bcrypt]==1.7.4",
+    "anthropic==0.25.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==7.4.3",
+    "pytest-asyncio==0.21.1",
+    "black==23.12.1",
+    "ruff==0.1.11",
+]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = ["E", "F", "W"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
