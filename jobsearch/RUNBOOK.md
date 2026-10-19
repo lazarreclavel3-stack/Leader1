@@ -42,22 +42,27 @@ resume tailored to that posting, built in the approved format.
   Never claim credentials Clavel doesn't hold (no CPA).
 - Keep it to 2 pages. Build: `python3 build_resume.py runs/<date>/<file>.json runs/<date>/Clavel_Lazarre_<Org>_<Title>.docx --pdf`
 - Spot-check at least one rendered PDF (`pdftoppm -jpeg -r 70`).
+- Never use gendered pronouns for Clavel in any generated text.
+- A reusable per-day generator pattern is in `runs/2026-10-19/make_specs.py` (per-job tagline, profile,
+  capability list, evidence-priority order, extra evidence bullets).
 
 ## 3. Deliver
 - Email **lazarreclavel3@gmail.com** (Gmail `send_message`), subject `Executive Job Picks — <Weekday, Mon D>`,
   HTML body: for each job J1..Jn give title, organization, location, salary, source, **direct link**,
-  how to apply, score/rating, 2–3 sentences on why it fits, and any gaps. Attach every tailored resume
-  (.docx, plus .pdf if under 25MB total).
+  how to apply, score/rating, 2–3 sentences on why it fits, gaps, and the matching resume file name.
+  Gmail attachments need inline base64, so do NOT attach all resumes to the digest.
+- Deliver the tailored .docx resumes with SendUserFile (status `proactive`, display `attach`).
   End with: "Reply APPLY J2, J5 and I'll draft cover letters and application emails on the next run."
 - If Gmail is unavailable: post the same list (with links) in the session and send the resumes
   with SendUserFile (status `proactive`).
-- Append each sent job to `history.csv`. Commit `history.csv` and `runs/<date>/*.json` (not the
-  .docx/.pdf outputs) and push to the branch.
+- Append each sent job to `history.csv`; commit and push only `history.csv`.
+  The GitHub repo is PUBLIC: never commit resumes, specs, or other personal files unless Clavel
+  confirms the repo has been made private.
 
 ## 4. Approvals
 - Check Gmail for replies from lazarreclavel3@gmail.com in "Executive Job Picks" threads (last 14 days)
   containing "APPLY" without a later "Processed" reply from us.
 - For each approved job, write a tailored cover letter (truthful, one page). If the posting lists an
-  application email, create a Gmail **draft** to it with the tailored resume attached. **Never send to
+  application email, create a Gmail **draft** to it (attach the tailored resume as base64 only for that one file). **Never send to
   employers.** For portal applications, reply with the link and cover letter.
 - Reply in the thread starting with "Processed" and list what was prepared for each job.
