@@ -1,0 +1,63 @@
+# Daily executive job search — runbook
+
+Run every morning. Goal: email Clavel 7–10 well-matched roles paying **$180K+**, each with a
+resume tailored to that posting, built in the approved format.
+
+## 0. Setup (each run)
+- `git fetch origin claude/admiring-bardeen-62rshk && git checkout claude/admiring-bardeen-62rshk && git pull`
+- Work in `jobsearch/`. Today's outputs go in `jobsearch/runs/YYYY-MM-DD/`.
+- Read `career_database.xlsx` sheets: *Career Evidence*, *Role Families*, *Search Rules*,
+  *Search Profile*, *Conflict Review*. These are the source of truth.
+- Read `history.csv` (date, org, title, url) and never resend a job already listed there.
+
+## 1. Find roles
+- **Role families** (from the database, all High priority unless noted): Finance Executive (CFO, VP Finance,
+  Deputy CFO), Finance + Operations (CFO/COO, Chief Business Officer, VP Finance & Ops, CAO),
+  Operations Executive (COO, SVP/VP Ops), Strategy/Growth, Business Development (CDO, Chief Growth Officer),
+  Workforce Executive, Programs/Social Impact, Executive Director (medium-high), Public Sector/Contracts
+  (medium-high), Financial Services (medium). Lead with CFO and finance-plus-operations roles, but surface
+  any lane that scores well. Match the work, not just the title.
+- **Pay floor: $180,000/yr.** Include a role only if the posted range reaches $180K+, or no salary is
+  posted but the level and organization size make $180K+ realistic (mark it "Salary not posted, est.").
+- **Location:** NYC metro (NYC, Westchester, Long Island, northern NJ) or fully remote in the US.
+- **Sources:** avoid the mass job boards (LinkedIn, Indeed, ZipRecruiter, Glassdoor, Monster,
+  CareerBuilder, SimplyHired, Google Jobs). Prefer executive-search firm postings (Koya Partners,
+  Isaacson Miller, Diversified Search, Phillips Oppenheim, On Ramps, Moss Kanter, Campbell & Co.,
+  Morris & Berger, Bridge Partners, NPAG, Marcum Search, Kittleman, fractional-CFO firms),
+  organizations' own career pages, and niche boards (Idealist, Chronicle of Philanthropy, PND,
+  Nonprofit HR, NY Nonprofit Media, Human Services Council, FEI, AFP/HFMA, Built In NYC,
+  Wellfound, Bridgespan).
+- Fetch each posting and confirm it is live. Never invent links, salaries, or application addresses.
+- **Score** each role 0–100 using the *Search Rules* weights (capability 38%, achievement/scope 24%,
+  leadership 12%, industry 10%, title 8%, practical constraints incl. salary/location/credentials 8%).
+  Drop roles below 72. Mark 82+ as Strong and 90+ as Priority. If fewer than 7 qualify, send fewer and say so.
+
+## 2. Tailor a resume per role
+- Copy `base_cfo.json` (or start from it for non-CFO lanes) to `runs/<date>/<NN>_<org>.json`.
+- Rewrite the tagline, profile, stats, capabilities, and bullet order/wording to mirror the posting's
+  language and priorities. Pull extra bullets from *Career Evidence* where relevant.
+- **Evidence rule:** every bullet must cite evidence IDs; the builder rejects bullets that don't.
+  Do not use metrics flagged on *Conflict Review* unless that row is marked confirmed (e.g. no $3.5M/$350K
+  capital-raise figure, no Haiti child counts, no Fitness location counts or timing, no $62.5M pipeline).
+  Never claim credentials Clavel doesn't hold (no CPA).
+- Keep it to 2 pages. Build: `python3 build_resume.py runs/<date>/<file>.json runs/<date>/Clavel_Lazarre_<Org>_<Title>.docx --pdf`
+- Spot-check at least one rendered PDF (`pdftoppm -jpeg -r 70`).
+
+## 3. Deliver
+- Email **lazarreclavel3@gmail.com** (Gmail `send_message`), subject `Executive Job Picks — <Weekday, Mon D>`,
+  HTML body: for each job J1..Jn give title, organization, location, salary, source, **direct link**,
+  how to apply, score/rating, 2–3 sentences on why it fits, and any gaps. Attach every tailored resume
+  (.docx, plus .pdf if under 25MB total).
+  End with: "Reply APPLY J2, J5 and I'll draft cover letters and application emails on the next run."
+- If Gmail is unavailable: post the same list (with links) in the session and send the resumes
+  with SendUserFile (status `proactive`).
+- Append each sent job to `history.csv`. Commit `history.csv` and `runs/<date>/*.json` (not the
+  .docx/.pdf outputs) and push to the branch.
+
+## 4. Approvals
+- Check Gmail for replies from lazarreclavel3@gmail.com in "Executive Job Picks" threads (last 14 days)
+  containing "APPLY" without a later "Processed" reply from us.
+- For each approved job, write a tailored cover letter (truthful, one page). If the posting lists an
+  application email, create a Gmail **draft** to it with the tailored resume attached. **Never send to
+  employers.** For portal applications, reply with the link and cover letter.
+- Reply in the thread starting with "Processed" and list what was prepared for each job.
