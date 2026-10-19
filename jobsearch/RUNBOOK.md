@@ -45,20 +45,21 @@ resume tailored to that posting, built in the approved format.
 - Never use gendered pronouns for Clavel in any generated text.
 - Pattern that works: a small per-day script that copies base_cfo.json and, per job, sets the tagline,
   profile and capability list, reorders bullets by the evidence IDs the posting cares about most, and adds
-  relevant extra evidence bullets (max 6 per role). `runs/` is git-ignored, so keep that script there.
+  relevant extra evidence bullets (max 6 per role). See `runs/2026-10-19/make_specs.py`.
 
 ## 3. Deliver
 - Email **lazarreclavel3@gmail.com** (Gmail `send_message`), subject `Executive Job Picks — <Weekday, Mon D>`,
   HTML body: for each job J1..Jn give title, organization, location, salary, source, **direct link**,
   how to apply, score/rating, 2–3 sentences on why it fits, gaps, and the matching resume file name.
-  Gmail attachments need inline base64, so do NOT attach all resumes to the digest.
-- Deliver the tailored .docx resumes with SendUserFile (status `proactive`, display `attach`).
+  Gmail attachments need inline base64, so do NOT attach resumes to the digest. Instead, commit and push
+  `runs/<date>/` (specs, .docx, .pdf) FIRST, then link each resume in the email as
+  `https://github.com/lazarreclavel3-stack/Leader1/raw/claude/admiring-bardeen-62rshk/jobsearch/runs/<date>/<file>.docx`
+  (and the .pdf the same way). Clavel is fine with the repo being public.
+- Also deliver the .docx resumes with SendUserFile (status `proactive`, display `attach`).
   End with: "Reply APPLY J2, J5 and I'll draft cover letters and application emails on the next run."
 - If Gmail is unavailable: post the same list (with links) in the session and send the resumes
   with SendUserFile (status `proactive`).
-- Append each sent job to `history.csv`; commit and push only `history.csv`.
-  The GitHub repo is PUBLIC: never commit resumes, specs, or other personal files unless Clavel
-  confirms the repo has been made private.
+- Append each sent job to `history.csv`; commit and push it with the day's `runs/<date>/` folder.
 
 ## 4. Approvals
 - Check Gmail for replies from lazarreclavel3@gmail.com in "Executive Job Picks" threads (last 14 days)

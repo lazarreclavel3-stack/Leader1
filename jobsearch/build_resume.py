@@ -131,7 +131,7 @@ def body_xml(spec):
         p(run('CLAVEL M. LAZARRE', DARK, 48, b=True) + run(',  MBA', GOLD, 26),
           '<w:spacing w:before="0" w:after="40"/><w:jc w:val="center"/>'),
         p(run(spec['tagline'], GOLD, 17), '<w:spacing w:before="20" w:after="40"/><w:jc w:val="center"/>'),
-        p(run(spec.get('contact', 'Brooklyn, NY  |  347-607-8164  |  lazarreclavel@gmail.com'), GREY, 18),
+        p(run(spec.get('contact', 'Brooklyn, NY  |  347-607-8164  |  lazarreclavel3@gmail.com'), GREY, 18),
           '<w:spacing w:before="20" w:after="80"/><w:jc w:val="center"/>'),
         p('', '<w:spacing w:before="0" w:after="120"/><w:pBdr><w:bottom w:val="single" w:sz="8" '
               'w:space="1" w:color="C09628"/></w:pBdr>'),
