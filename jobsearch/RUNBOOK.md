@@ -43,8 +43,9 @@ resume tailored to that posting, built in the approved format.
 - Keep it to 2 pages. Build: `python3 build_resume.py runs/<date>/<file>.json runs/<date>/Clavel_Lazarre_<Org>_<Title>.docx --pdf`
 - Spot-check at least one rendered PDF (`pdftoppm -jpeg -r 70`).
 - Never use gendered pronouns for Clavel in any generated text.
-- A reusable per-day generator pattern is in `runs/2026-10-19/make_specs.py` (per-job tagline, profile,
-  capability list, evidence-priority order, extra evidence bullets).
+- Pattern that works: a small per-day script that copies base_cfo.json and, per job, sets the tagline,
+  profile and capability list, reorders bullets by the evidence IDs the posting cares about most, and adds
+  relevant extra evidence bullets (max 6 per role). `runs/` is git-ignored, so keep that script there.
 
 ## 3. Deliver
 - Email **lazarreclavel3@gmail.com** (Gmail `send_message`), subject `Executive Job Picks — <Weekday, Mon D>`,
