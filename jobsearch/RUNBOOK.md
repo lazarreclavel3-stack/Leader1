@@ -64,6 +64,12 @@ resume tailored to that posting, built in the approved format.
   with SendUserFile (status `proactive`).
 - Append each sent job to `history.csv`; commit and push it with the day's `runs/<date>/` folder.
 
+## 3b. Thin days
+- If no new role qualifies, still email: say so plainly, then list the best still-open earlier picks
+  (re-check each posting is live) with their resume links. Never pad with weak roles.
+- If Clavel replies "WIDEN", from then on also include hybrid roles outside NYC and very strong roles
+  topping out slightly under $180K, flagged as such. Record that choice here.
+
 ## 4. Approvals
 - Check Gmail for replies from lazarreclavel3@gmail.com in "Executive Job Picks" threads (last 14 days)
   containing "APPLY" without a later "Processed" reply from us.
