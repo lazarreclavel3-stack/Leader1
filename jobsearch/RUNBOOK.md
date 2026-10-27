@@ -69,6 +69,9 @@ resume tailored to that posting, built in the approved format.
   (re-check each posting is live) with their resume links. Never pad with weak roles.
 - If Clavel replies "WIDEN", from then on also include hybrid roles outside NYC and very strong roles
   topping out slightly under $180K, flagged as such. Record that choice here.
+- **WIDEN is ON (Clavel replied 2026-10-26).** Include hybrid roles outside NYC (e.g. DC/MD/VA, or
+  relocation roles with relocation support), and strong roles whose range tops out at or near $180K. Label each.
+- Applied (per Clavel, 2026-10-26): Lantern Community Services, The Clean Slate Initiative. Don't re-pitch.
 
 ## 4. Approvals
 - Check Gmail for replies from lazarreclavel3@gmail.com in "Executive Job Picks" threads (last 14 days)
