@@ -17,7 +17,7 @@ ACCENT = RGBColor(0x1F, 0x3A, 0x5F)   # deep navy
 TEXT = RGBColor(0x22, 0x22, 0x22)
 MUTED = RGBColor(0x55, 0x55, 0x55)
 FONT = 'Calibri'
-BODY_PT = 10
+BODY_PT = 10.5
 RIGHT_TAB = Inches(7.3)
 
 NAME = 'CLAVEL LAZARRE, MBA'
@@ -30,35 +30,32 @@ SUMMARY = [
     'portfolio and financial and operational oversight of a 140-person division. Co-founded a fitness business that '
     'reached $1M in annual revenue within 24 months, then expanded through a franchise model to $10M in annual sales '
     'while growing the team from 4 to 60 full-time employees.',
-    'Brings a founder’s understanding of growth and an operator’s discipline in execution. Partners with CEOs, boards, '
-    'public agencies, and community organizations to evaluate opportunities, align resources, and translate strategy '
-    'into budgets, partnerships, programs, and operating processes.',
+    'Brings a founder’s understanding of growth and an operator’s discipline in execution, partnering with CEOs, boards, '
+    'public agencies, and community organizations to translate strategy into budgets, partnerships, programs, and operations.',
 ]
 
 RESULTS = [
     ('Built and expanded a business', 'Grew Fitness Collective from a $5,000 investment to $10M in annual sales and from 4 to '
      '60 full-time employees (15x), establishing a franchise model and three additional locations.'),
-    ('Led at substantial scale', 'Oversaw a 140-person division and an $80M P&L at Osborne Association, connecting '
-     'financial accountability, workforce development, partnerships, and service delivery.'),
+    ('Built leadership accountability', 'Managed 12 direct reports within a 140-person division, using weekly meetings, '
+     'individual check-ins, and operational and financial reviews to align priorities and guide execution.'),
     ('Created mission-driven programs', 'Led a nine-month transitional-employment program serving 300+ formerly '
-     'incarcerated people annually; created and delivered an 18-month NYPA clean-energy workforce project with 92% retention.'),
+     'incarcerated people annually; created and delivered an 18-month NYPA clean-energy workforce program with a 92% certificate-completion rate.'),
     ('Improved operating performance', 'Cut vendor costs 35% and processing time 60% at Alluel Logistics through '
      'negotiation and systems improvements.'),
 ]
 
 EXPERTISE = ['Organizational Growth', 'General Management', 'P&L Leadership', 'Budgeting & Resource Allocation',
-             'CEO & Board Partnership', 'People Operations', 'Program Development', 'Coalition Building',
-             'Fundraising & Grant Stewardship', 'Risk Management', 'Performance Reporting & KPIs',
-             'Technology & Process Improvement', 'Workforce Development', 'Social Enterprise', 'Practical AI Implementation']
+             'CEO & Board Partnership', 'People Operations & Talent Development', 'Program Development',
+             'Coalition Building & Partnerships', 'Performance Reporting & KPIs', 'Technology & Process Improvement']
 
 JOBS = [
     ('MAROON STRATEGIST, LLC', 'Brooklyn, NY', 'Chief Financial Strategy Officer', 'Mar 2024 – Present',
      'Fractional CFO and program leadership across nonprofit, public-sector, education, healthcare, and service '
      'businesses, connecting financial planning with partnerships, operating systems, and program execution.',
-     ['Created and led the NYPA clean-energy workforce training project from inception through completion over 18 '
-      'months, overseeing proposal development, program design, budgeting, partner coordination, and participant training.',
-      'Completed the program with a 92% retention rate and established new energy-sector employer relationships, building '
-      'a partnership network to support continued workforce development.',
+     ['Created and led the NYPA clean-energy workforce training program from inception through completion over 18 months, '
+      'overseeing proposal development, program design, budgeting, partnerships, and training; 92% of enrolled participants '
+      'completed the program and earned a certificate, and the program established new energy-sector employer relationships.',
       'Built a coalition involving city and state agencies, elected officials, academic partners, Stanford Innovation Lab, '
       'KPMG, and the New York Power Authority; coordinated responsibilities and resources around training delivery.',
       'Developed and managed a multimillion-dollar budget, allocating direct and indirect costs, managing restricted cash '
@@ -69,9 +66,8 @@ JOBS = [
       'dashboards, and SOPs to support leadership decisions and operating accountability.']),
     ('OSBORNE ASSOCIATION', 'New York, NY', 'Vice President, Business Development & Social Ventures',
      'Jan 2023 – Oct 2025',
-     'Led a 140-person division through 12 direct reports spanning budget and finance, grant stewardship, operations, and '
-     'frontline supervision. Combined financial accountability, people leadership, and business development to strengthen '
-     'delivery and expand mission-driven programs.',
+     'Led a 140-person division of a human-services organization supporting people affected by the criminal legal system, '
+     'combining financial accountability, people leadership, and business development to expand mission-driven programs.',
      ['Managed 12 direct reports, directing hiring, onboarding, training, performance management, and day-to-day execution '
       'across financial, operational, and program responsibilities.',
       'Established a management cadence of weekly team meetings, individual check-ins, and recurring operational and '
@@ -98,23 +94,18 @@ JOBS = [
      ['Served as financial architect for a $200M national banking development initiative, supporting capital planning '
       'and financial structuring.',
       'Developed operational and performance-improvement strategies for organizations and brands including American '
-      'Express OPEN, Ogilvy, and Chubb.',
-      'Led financial remediation for a psychological services practice, identifying ~$251K in unclaimed deductions and '
-      'preparing corrected financial statements.']),
+      'Express OPEN, Ogilvy, and Chubb.']),
     ('FITNESS COLLECTIVE INC.', 'Brooklyn, NY', 'CEO & Co-Founder', '2004 – 2016',
      'Built and expanded a health and wellness business by combining direct customer acquisition, neighborhood '
      'partnerships, and the people and technology systems needed to support multiple locations.',
      ['Scaled from a $5,000 investment to $1M in annual revenue within 24 months, then implemented a franchise model and '
       'launched three additional locations, growing to $10M in annual sales.',
-      'Scaled the workforce from 4 to 60 full-time employees across accounting, IT, facilities, personal training, group '
-      'fitness, and other functions, building the staffing structure needed to support business expansion.',
-      'Created roles and helped recruit, supervise, and train employees across these functions, with hands-on involvement '
-      'in building both service delivery and business-support teams.',
-      'Built HR, payroll, and benefits infrastructure to support the expanding workforce and operations across multiple '
-      'locations.',
+      'Scaled the workforce from 4 to 60 full-time employees across accounting, IT, facilities, personal training, and group '
+      'fitness; created roles and participated directly in recruitment, supervision, and training.',
+      'Built HR, payroll, benefits, and client-management infrastructure to support expansion across multiple locations, '
+      'including Mindbody CRM serving a client base of 4,000+.',
       'Led direct outreach, grassroots marketing, website development, and partnerships with local businesses to attract '
       'clients and establish a presence in each operating neighborhood.',
-      'Implemented Mindbody CRM for client tracking, booking, and targeted engagement across 4,000+ clients.',
       'Established a training academy supporting certification of 25 trainers, expanding workforce capacity and service '
       'offerings.']),
 ]
@@ -123,7 +114,7 @@ INNOVATION = [
     ('SkyNet', 'Built an AI-supported workflow connecting opportunity research, evaluation, document preparation, and '
      'reporting, with evidence validation, cost controls, and performance tracking.'),
     ('JWA AI Career Launch', 'Designed and submitted a Citi Foundation proposal linking AI learning, workforce '
-     'preparation, and employment support, with measures for skills, employment, wages, and retention.'),
+     'preparation, and employment support, with proposed measures for skills, employment, wages, and retention.'),
 ]
 
 EDUCATION = [
@@ -206,7 +197,7 @@ def build(out):
     section(doc, 'Core Expertise')
     style_run(para(doc, after=1, line=1.1).add_run('  |  '.join(EXPERTISE)))
 
-    section(doc, 'Professional Experience')
+    section(doc, 'Selected Professional Experience')
     for org, loc, title, dates, summary, bullets in JOBS:
         p = para(doc, before=5, keep_next=True)
         p.paragraph_format.tab_stops.add_tab_stop(RIGHT_TAB, WD_TAB_ALIGNMENT.RIGHT)
