@@ -31,7 +31,8 @@ SUMMARY = [
     'reached $1M in annual revenue within 24 months, then expanded through a franchise model to $10M in annual sales '
     'while growing the team from 4 to 60 full-time employees.',
     'Brings a founder’s understanding of growth and an operator’s discipline in execution, partnering with CEOs, boards, '
-    'public agencies, and community organizations to translate strategy into budgets, partnerships, programs, and operations.',
+    'public agencies, and community organizations to translate strategy into budgets, partnerships, programs, and operations. Committed to building '
+    'the people, systems, and operating discipline that allow organizations to scale sustainably and deliver on their mission.',
 ]
 
 RESULTS = [
@@ -51,8 +52,7 @@ EXPERTISE = ['Organizational Growth', 'General Management', 'P&L Leadership', 'B
 
 JOBS = [
     ('MAROON STRATEGIST, LLC', 'Brooklyn, NY', 'Chief Financial Strategy Officer', 'Mar 2024 – Present',
-     'Fractional CFO and program leadership across nonprofit, public-sector, education, healthcare, and service '
-     'businesses, connecting financial planning with partnerships, operating systems, and program execution.',
+     'Fractional CFO and program leadership connecting financial planning with partnerships, operating systems, and execution.',
      ['Created and led the NYPA clean-energy workforce training program from inception through completion over 18 months, '
       'overseeing proposal development, program design, budgeting, partnerships, and training; 92% of enrolled participants '
       'completed the program and earned a certificate, and the program established new energy-sector employer relationships.',
@@ -66,8 +66,7 @@ JOBS = [
       'dashboards, and SOPs to support leadership decisions and operating accountability.']),
     ('OSBORNE ASSOCIATION', 'New York, NY', 'Vice President, Business Development & Social Ventures',
      'Jan 2023 – Oct 2025',
-     'Led a 140-person division of a human-services organization supporting people affected by the criminal legal system, '
-     'combining financial accountability, people leadership, and business development to expand mission-driven programs.',
+     'Led a 140-person division of a human-services organization serving people affected by the criminal legal system.',
      ['Managed 12 direct reports, directing hiring, onboarding, training, performance management, and day-to-day execution '
       'across financial, operational, and program responsibilities.',
       'Established a management cadence of weekly team meetings, individual check-ins, and recurring operational and '
