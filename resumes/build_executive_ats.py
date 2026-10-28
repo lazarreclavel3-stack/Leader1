@@ -17,8 +17,8 @@ ACCENT = RGBColor(0x1F, 0x3A, 0x5F)   # deep navy
 TEXT = RGBColor(0x22, 0x22, 0x22)
 MUTED = RGBColor(0x55, 0x55, 0x55)
 FONT = 'Calibri'
-BODY_PT = 10.5
-RIGHT_TAB = Inches(7.2)
+BODY_PT = 10
+RIGHT_TAB = Inches(7.3)
 
 NAME = 'CLAVEL LAZARRE, MBA'
 CONTACT = 'New York, NY  |  347-607-8164  |  lazarreclavel3@gmail.com  |  linkedin.com/in/clavel-lazarre'
@@ -28,19 +28,20 @@ SUMMARY = [
     'Operations and finance executive with 20+ years of experience building businesses, leading mission-driven '
     'programs, and creating the systems organizations need to grow. Held full P&L accountability for an $80M '
     'portfolio and financial and operational oversight of a 140-person division. Co-founded a fitness business that '
-    'reached $1M in annual revenue within 24 months, then expanded through a franchise model to $10M in annual sales.',
+    'reached $1M in annual revenue within 24 months, then expanded through a franchise model to $10M in annual sales '
+    'while growing the team from 4 to 60 full-time employees.',
     'Brings a founder’s understanding of growth and an operator’s discipline in execution. Partners with CEOs, boards, '
     'public agencies, and community organizations to evaluate opportunities, align resources, and translate strategy '
     'into budgets, partnerships, programs, and operating processes.',
 ]
 
 RESULTS = [
-    ('Built and expanded a business', 'Grew Fitness Collective from a $5,000 investment to $10M in annual sales, '
-     'establishing a franchise model and launching three additional locations.'),
+    ('Built and expanded a business', 'Grew Fitness Collective from a $5,000 investment to $10M in annual sales and from 4 to '
+     '60 full-time employees (15x), establishing a franchise model and three additional locations.'),
     ('Led at substantial scale', 'Oversaw a 140-person division and an $80M P&L at Osborne Association, connecting '
      'financial accountability, workforce development, partnerships, and service delivery.'),
     ('Created mission-driven programs', 'Led a nine-month transitional-employment program serving 300+ formerly '
-     'incarcerated people annually; created and delivered an 18-month NYPA clean-energy workforce project.'),
+     'incarcerated people annually; created and delivered an 18-month NYPA clean-energy workforce project with 92% retention.'),
     ('Improved operating performance', 'Cut vendor costs 35% and processing time 60% at Alluel Logistics through '
      'negotiation and systems improvements.'),
 ]
@@ -52,53 +53,70 @@ EXPERTISE = ['Organizational Growth', 'General Management', 'P&L Leadership', 'B
 
 JOBS = [
     ('MAROON STRATEGIST, LLC', 'Brooklyn, NY', 'Chief Financial Strategy Officer', 'Mar 2024 – Present',
-     'Fractional CFO and program leadership for nonprofit, public-sector, education, healthcare, and service businesses.',
-     ['Created and led the NYPA clean-energy workforce training project from inception through final delivery over 18 '
-      'months, owning proposal development, program design, budgeting, partner coordination, and participant training.',
-      'Built a workforce coalition spanning city and state agencies, elected officials, academic partners, Stanford '
-      'Innovation Lab, KPMG, and the New York Power Authority.',
-      'Managed a multimillion-dollar project budget: allocated direct and indirect costs, managed restricted cash flow, '
-      'and aligned spending with grant requirements and delivery milestones.',
-      'Led fundraising and partnership-agreement development, tying funding commitments to partner responsibilities and '
-      'implementation needs.',
-      'Direct budgeting, forecasting, cash management, and multi-entity financial planning; advise leaders on financing, '
-      'working capital, and growth priorities.',
-      'Build financial models, KPI dashboards, and SOPs; lead financial cleanup and reporting remediation with clients '
-      'and their accountants.']),
+     'Fractional CFO and program leadership across nonprofit, public-sector, education, healthcare, and service '
+     'businesses, connecting financial planning with partnerships, operating systems, and program execution.',
+     ['Created and led the NYPA clean-energy workforce training project from inception through completion over 18 '
+      'months, overseeing proposal development, program design, budgeting, partner coordination, and participant training.',
+      'Completed the program with a 92% retention rate and established new energy-sector employer relationships, building '
+      'a partnership network to support continued workforce development.',
+      'Built a coalition involving city and state agencies, elected officials, academic partners, Stanford Innovation Lab, '
+      'KPMG, and the New York Power Authority; coordinated responsibilities and resources around training delivery.',
+      'Developed and managed a multimillion-dollar budget, allocating direct and indirect costs, managing restricted cash '
+      'flow, and aligning expenditures with grant requirements and delivery milestones.',
+      'Led fundraising and partnership-agreement development; brought NYSID into the partnership network and liaised with '
+      'Assembly partners to develop relationships and opportunities.',
+      'Direct budgeting, forecasting, cash management, and multi-entity financial planning; build financial models, KPI '
+      'dashboards, and SOPs to support leadership decisions and operating accountability.']),
     ('OSBORNE ASSOCIATION', 'New York, NY', 'Vice President, Business Development & Social Ventures',
      'Jan 2023 – Oct 2025',
-     'Led a 140-person division of a human-services organization supporting people affected by the criminal legal system.',
-     ['Held full P&L accountability for an $80M portfolio, aligning budgets, staffing, partnerships, and program priorities.',
-      'Partnered with the CEO and Board on long-range planning, risk management, resource allocation, and growth.',
+     'Led a 140-person division through 12 direct reports spanning budget and finance, grant stewardship, operations, and '
+     'frontline supervision. Combined financial accountability, people leadership, and business development to strengthen '
+     'delivery and expand mission-driven programs.',
+     ['Managed 12 direct reports, directing hiring, onboarding, training, performance management, and day-to-day execution '
+      'across financial, operational, and program responsibilities.',
+      'Established a management cadence of weekly team meetings, individual check-ins, and recurring operational and '
+      'financial reviews, using budgets and performance reports to identify issues, align priorities, and guide decisions.',
+      'Held full P&L accountability for an $80M portfolio, aligning staffing, budgets, grant obligations, and program '
+      'delivery with organizational priorities.',
+      'Built growth opportunities across multiple industries through new partnerships, direct funding opportunities, and '
+      'business development, incorporating expansion planning into ongoing operations.',
       'Led a nine-month transitional-employment program serving 300+ formerly incarcerated people annually, coordinating '
       'employer partnerships and tracking outcomes against funder benchmarks.',
-      'Negotiated government, corporate, and philanthropic partnerships and launched earned-income social ventures.',
-      'Authored a growth and feasibility white paper on a potential Rikers Island service contract, integrating financial '
-      'modeling, workforce needs, mission alignment, employee well-being, and operational risk.',
-      'Developed a roadmap to potentially double JMS within 12 months, sizing investments in management capacity, '
-      'recruitment, training, contract oversight, payroll, compliance, and technology.',
-      'Oversaw departmental talent acquisition, onboarding, staff development, and performance management.']),
+      'Partnered with the CEO and Board on planning, risk management, resource allocation, and growth; negotiated '
+      'government, corporate, and philanthropic partnerships.',
+      'Authored a Rikers Island contract feasibility white paper and a roadmap for potentially doubling JMS within 12 '
+      'months, identifying required investments in management, staffing, training, compliance, payroll, and technology.']),
     ('ALLUEL LOGISTICS', 'New York, NY', 'Vice President of Operations', 'Nov 2021 – Aug 2022', None,
      ['Managed a $2M operating budget; renegotiated vendor agreements to cut supply-chain and logistics costs 35%.',
       'Implemented warehouse-management technology that reduced data-processing time 60%; introduced CRM systems and '
       'trained staff.',
       'Oversaw NYCHA logistics contracts serving 100 developments and supervised ~$500K in monthly NYC DHS billing.',
       'Recruited and managed field, sales, and administrative staff; improved HR workflows and data accuracy.']),
-    ('LAZARRE CONSULTING GROUP', 'New York, NY', 'Chief Executive Officer', 'Dec 2016 – Present', None,
+    ('LAZARRE CONSULTING GROUP', 'New York, NY', 'Chief Executive Officer', 'Dec 2016 – Present',
+     'Ongoing private-client advisory practice alongside project-based fractional CFO engagements, providing business '
+     'consulting, financial analysis, and personal financial and wealth-management support.',
      ['Served as financial architect for a $200M national banking development initiative, supporting capital planning '
       'and financial structuring.',
-      'Developed operating and performance-improvement strategies for organizations and brands including American '
+      'Developed operational and performance-improvement strategies for organizations and brands including American '
       'Express OPEN, Ogilvy, and Chubb.',
       'Led financial remediation for a psychological services practice, identifying ~$251K in unclaimed deductions and '
       'preparing corrected financial statements.']),
-    ('FITNESS COLLECTIVE INC.', 'Brooklyn, NY', 'CEO & Co-Founder', '2004 – 2016', None,
-     ['Scaled from a $5,000 investment to $1M in annual revenue within 24 months, then franchised and launched three '
-      'additional locations, growing to $10M in annual sales.',
-      'Built HR, payroll, and benefits infrastructure for 50+ employees, overseeing recruitment, training, performance '
-      'management, and ~$65K in monthly payroll.',
-      'Implemented Mindbody CRM for client tracking, booking, and targeted engagement across 4,000+ clients; founded a '
-      'training academy that certified 25 trainers.',
-      'Developed local partnerships, cross-marketing, and community events; negotiated vendor and utility agreements.']),
+    ('FITNESS COLLECTIVE INC.', 'Brooklyn, NY', 'CEO & Co-Founder', '2004 – 2016',
+     'Built and expanded a health and wellness business by combining direct customer acquisition, neighborhood '
+     'partnerships, and the people and technology systems needed to support multiple locations.',
+     ['Scaled from a $5,000 investment to $1M in annual revenue within 24 months, then implemented a franchise model and '
+      'launched three additional locations, growing to $10M in annual sales.',
+      'Scaled the workforce from 4 to 60 full-time employees across accounting, IT, facilities, personal training, group '
+      'fitness, and other functions, building the staffing structure needed to support business expansion.',
+      'Created roles and helped recruit, supervise, and train employees across these functions, with hands-on involvement '
+      'in building both service delivery and business-support teams.',
+      'Built HR, payroll, and benefits infrastructure to support the expanding workforce and operations across multiple '
+      'locations.',
+      'Led direct outreach, grassroots marketing, website development, and partnerships with local businesses to attract '
+      'clients and establish a presence in each operating neighborhood.',
+      'Implemented Mindbody CRM for client tracking, booking, and targeted engagement across 4,000+ clients.',
+      'Established a training academy supporting certification of 25 trainers, expanding workforce capacity and service '
+      'offerings.']),
 ]
 
 INNOVATION = [
@@ -147,13 +165,13 @@ def bottom_border(p, color='1F3A5F', size=8):
 
 
 def section(doc, title):
-    p = para(doc, before=8, after=3, keep_next=True)
+    p = para(doc, before=7, after=2, keep_next=True)
     style_run(p.add_run(title), size=11.5, bold=True, color=ACCENT, caps=True)
     bottom_border(p)
 
 
 def bullet(doc, text, lead=None):
-    p = para(doc, after=1.5, line=1.03)
+    p = para(doc, after=1, line=1.0)
     pf = p.paragraph_format
     pf.left_indent, pf.first_line_indent = Inches(0.18), Inches(-0.14)
     style_run(p.add_run('•  '), color=ACCENT)
@@ -166,8 +184,8 @@ def build(out):
     doc = Document()
     sec = doc.sections[0]
     sec.page_width, sec.page_height = Inches(8.5), Inches(11)
-    sec.left_margin = sec.right_margin = Inches(0.65)
-    sec.top_margin = sec.bottom_margin = Inches(0.55)
+    sec.left_margin = sec.right_margin = Inches(0.6)
+    sec.top_margin = sec.bottom_margin = Inches(0.5)
     normal = doc.styles['Normal']
     normal.font.name, normal.font.size = FONT, Pt(BODY_PT)
 
@@ -190,7 +208,7 @@ def build(out):
 
     section(doc, 'Professional Experience')
     for org, loc, title, dates, summary, bullets in JOBS:
-        p = para(doc, before=6, keep_next=True)
+        p = para(doc, before=5, keep_next=True)
         p.paragraph_format.tab_stops.add_tab_stop(RIGHT_TAB, WD_TAB_ALIGNMENT.RIGHT)
         style_run(p.add_run(org), bold=True, color=ACCENT)
         style_run(p.add_run(f'  |  {loc}'), color=MUTED)
