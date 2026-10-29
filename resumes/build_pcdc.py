@@ -38,13 +38,13 @@ JOBS = [
       'budgets with direct and indirect cost allocation and restricted cash-flow monitoring.',
       'Lead reconciliations and reporting remediation, coordinating clients, bookkeepers, accountants, and other '
       'stakeholders to resolve discrepancies and improve financial information.',
-      'Build financial models, management dashboards, and standard operating procedures that help leadership assess '
-      'performance, allocate resources, and improve delivery.',
+      'Build financial models, management dashboards, and standard operating procedures to support resource '
+      'allocation and improve delivery.',
       'Created and led the 18-month NYPA clean-energy workforce program from inception through completion, standing up '
       'design, staffing, budgeting, partnerships, and training; piloted the model before full rollout, and 92% of '
       'enrolled participants earned a certificate.',
-      'Led proposal development and quality review for grant-funded and fee-for-service work; designed funder outcome '
-      'reporting and formal partnership agreements with agencies, academic partners, and employers.']),
+      'Led proposal development and quality review for grant-funded and fee-for-service work; developed formal '
+      'partnership agreements with agencies, academic partners, and employers.']),
     ('OSBORNE ASSOCIATION', 'New York, NY', 'Vice President, Business Development & Social Ventures',
      'Jan 2023 – Oct 2025',
      'Led financial and operational oversight of a 140-person division, integrating staffing, finance, grant '
