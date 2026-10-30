@@ -50,8 +50,13 @@ JOBS = [
     ('OSBORNE ASSOCIATION', 'New York, NY', 'Vice President, Business Development & Social Ventures', 'Jan 2023 – Oct 2025',
      'Led business development and financial oversight of a 140-person division in a human-services organization serving '
      'people affected by the criminal legal system.',
-     ['Structured and negotiated $10M+ in new government, institutional, and corporate contracts; raised $400K+ from private '
-      'donors, foundations, and corporate partners, including funders and partners REDF and JC Flowers.',
+     ['Led fundraising for the division: identified and prioritized prospects, developed proposals, and personally led '
+      'solicitation of the highest-value donors, foundations, and corporate partners, raising $400K+ from funders and '
+      'partners including REDF and JC Flowers.',
+      'Partnered with the CEO, Board, and Fund Development Committee on donor cultivation and stewardship, deploying board '
+      'members in cultivation and co-leading annual fundraising events that exceeded revenue targets.',
+      'Structured and negotiated $10M+ in new government, institutional, and corporate contracts, turning partnerships '
+      'into funded programs and employment pathways.',
       'Built pricing, monetization plans, and budgets for earned-revenue social ventures, including landscaping and '
       'warehouse cleaning, diversifying the division’s revenue.',
       'Helped move the division from a deficit exceeding $1M to a 13% operating surplus within one year through '
@@ -80,8 +85,6 @@ JOBS = [
     ('LAZARRE CONSULTING GROUP', 'New York, NY', 'Founder & Fractional CFO', 'Dec 2016 – Present', None,
      ['Led financial remediation for a behavioral health practice, reconciling records, identifying approximately $251K in '
       'unclaimed deductions, and preparing corrected financial statements.',
-      'Advise clients on tax compliance, reporting corrections, and financial remediation, translating complex financial '
-      'issues into actionable priorities.',
       'Supported capital planning and financing strategy for a $200M national banking development initiative; advised '
       'organizations including American Express OPEN, Ogilvy, and Chubb.']),
     ('FITNESS COLLECTIVE INC.', 'Brooklyn, NY', 'Co-Founder & Chief Executive Officer', '2004 – 2016', None,
@@ -95,18 +98,15 @@ JOBS = [
 ]
 
 HEALTH = [
-    'Advised Medicare and Medicaid beneficiaries on Aetna plan benefits, coverage options, and enrollment; worked with '
-    'hospitals and health-insurance agents.',
-    'Sold commercial insurance to organizations, developing familiarity with organizational coverage needs, employee '
-    'benefits structures, and related costs. Previously held Life, Accident & Health insurance licenses.',
+    'Advised Medicare and Medicaid beneficiaries on Aetna plan benefits and enrollment, worked with hospitals and '
+    'health-insurance agents, and sold commercial insurance to organizations; previously held Life, Accident & Health '
+    'insurance licenses.',
 ]
 
 SYSTEMS = ('QuickBooks  |  Excel financial models and KPI reporting  |  Monday.com  |  Salesforce  |  Zoho CRM  |  '
            'Airtable  |  Google Workspace')
 SKYNET = ('Developed and piloted SkyNet, an AI-supported workflow now in daily use for research, evaluation, document '
-          'preparation, and engagement tracking. Designed and submitted a Citi Foundation proposal for Joseph Will '
-          'Academy (JWA) linking AI learning, workforce preparation, and employment support, with proposed outcome measures '
-          'for skills, employment, wages, and retention.')
+          'preparation, and engagement tracking.')
 
 EDUCATION = [
     ('Master of Business Administration, General Business Management', 'West Texas A&M University', '2023'),
@@ -121,14 +121,18 @@ LETTER = [
     'what I have spent my career building toward. I would welcome the opportunity to lead its next chapter of growth.',
     'Revenue diversification has been central to my work. At the Osborne Association, I structured and negotiated more '
     'than $10M in new government, institutional, and corporate contracts and raised over $400K from private donors, '
-    'foundations, and corporate partners, including REDF and JC Flowers. I also built pricing, monetization plans, and '
+    'foundations, and corporate partners, including REDF and JC Flowers, by identifying prospects, developing proposals, '
+    'personally leading solicitations, and stewarding those relationships with the CEO and Board. I also built pricing, monetization plans, and '
     'budgets for earned-revenue social ventures, and I helped move a 140-person division from a deficit exceeding $1M to a '
     '13% operating surplus within one year while partnering with the CEO and the Board’s Finance and Audit Committees.',
     'I also bring hands-on healthcare financing experience. As a fractional CFO, I manage the finances of a physician '
     'practice that participates in an IPA, including its IPA-related reporting and billing to Medicaid managed care and '
     'other insurance plans. Earlier in my career, I advised Medicare and Medicaid beneficiaries on plan benefits and '
     'enrollment. At Osborne, I partnered with the Director of El Rio, a substance use treatment program for people '
-    'returning from incarceration, on budgeting, hiring, and participant placements.',
+    'returning from incarceration, on budgeting, hiring, and participant placements. That work taught me that people '
+    'engage with care when they are met where they are, treated with dignity, and trusted to make their own choices. '
+    'Nonjudgmental, low-barrier access is not only a value; it is how programs earn the trust that keeps people '
+    'connected to services.',
     'A small organization needs a leader who can set strategy and also run the numbers. I currently oversee payroll, '
     'accounts payable, invoicing, reconciliations, and financial statements for boards and funders; lead annual audit '
     'coordination; and, as an IRS-registered tax preparer, compile Form 990 returns for multiple nonprofits. I have also '
