@@ -20,7 +20,7 @@ SUMMARY = (
     'Mission-driven finance and operations executive with 20+ years of experience growing revenue, managing healthcare '
     'and nonprofit finances, and building organizations that serve marginalized communities. Brings hands-on experience '
     'with IPA-related finances and Medicaid managed care billing, substance use and reentry programs, Form 990 and audit '
-    'oversight, and government contracts. An entrepreneurial builder who partners with boards, runs day-to-day finance and '
+    'oversight, and government contracts, along with a long track record of fundraising from donors, foundations, and corporate partners. An entrepreneurial builder who partners with boards, runs day-to-day finance and '
     'administration in lean organizations, and translates relationships into sustainable funding.')
 
 JOBS = [
@@ -51,8 +51,8 @@ JOBS = [
      'Led business development and financial oversight of a 140-person division in a human-services organization serving '
      'people affected by the criminal legal system.',
      ['Led fundraising for the division: identified and prioritized prospects, developed proposals, and personally led '
-      'solicitation of the highest-value donors, foundations, and corporate partners, raising $400K+ from funders and '
-      'partners including REDF and JC Flowers.',
+      'solicitation of the highest-value donors, foundations, and corporate partners, including funders and partners '
+      'REDF and JC Flowers.',
       'Partnered with the CEO, Board, and Fund Development Committee on donor cultivation and stewardship, deploying board '
       'members in cultivation and co-leading annual fundraising events that exceeded revenue targets.',
       'Structured and negotiated $10M+ in new government, institutional, and corporate contracts, turning partnerships '
@@ -119,8 +119,9 @@ LETTER = [
     'Collaborative and EngageWell IPA. EngageWell’s work, integrating community-based organizations into how healthcare is '
     'delivered and financed, with a commitment to harm reduction and to the dignity of the people it serves, reflects '
     'what I have spent my career building toward. I would welcome the opportunity to lead its next chapter of growth.',
-    'Revenue diversification has been central to my work. At the Osborne Association, I structured and negotiated more '
-    'than $10M in new government, institutional, and corporate contracts and raised over $400K from private donors, '
+    'Revenue diversification has been central to my work. At the '
+    'Osborne Association, I structured and negotiated more than $10M in new government, institutional, and corporate '
+    'contracts and secured support from private donors, '
     'foundations, and corporate partners, including REDF and JC Flowers, by identifying prospects, developing proposals, '
     'personally leading solicitations, and stewarding those relationships with the CEO and Board. I also built pricing, monetization plans, and '
     'budgets for earned-revenue social ventures, and I helped move a 140-person division from a deficit exceeding $1M to a '
