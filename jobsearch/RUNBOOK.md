@@ -81,3 +81,10 @@ resume tailored to that posting, built in the approved format.
   application email, create a Gmail **draft** to it (attach the tailored resume as base64 only for that one file). **Never send to
   employers.** For portal applications, reply with the link and cover letter.
 - Reply in the thread starting with "Processed" and list what was prepared for each job.
+
+## 5. Master list upkeep
+- `career_database.xlsx` is the single source for every resume. Whenever Clavel shares a new fact, skill, metric,
+  title, or preference (in chat or email), add it the same day: new rows in *Career Evidence* (Status
+  "Stated by Clavel, <month year>"), new or resolved rows in *Conflict Review*, and updates to *Profile & Preferences*.
+- Pull facts for tailored resumes from this file first; Clavel fact-checks figures, so don't block on conflicts
+  Clavel has already chosen (see the Status column).
