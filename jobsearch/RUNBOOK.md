@@ -55,7 +55,8 @@ resume tailored to that posting, built in the approved format.
 - Email **lazarreclavel3@gmail.com** (Gmail `send_message`), subject `Executive Job Picks — <Weekday, Mon D>`,
   HTML body: for each job J1..Jn give title, organization, location, salary, source, **direct link**,
   how to apply, score/rating, 2–3 sentences on why it fits, gaps, and the matching resume file name.
-  Gmail attachments need inline base64, so do NOT attach resumes to the digest. Instead, commit and push
+  Since 2026-11-17 Gmail accepts file references (content = sha256:<hash>:<absolute path>), so attach each resume PDF
+  to the digest that way. Also commit and push
   `runs/<date>/` (specs, .docx, .pdf) FIRST, then link each resume in the email as
   `https://github.com/lazarreclavel3-stack/Leader1/raw/claude/admiring-bardeen-62rshk/jobsearch/runs/<date>/<file>.docx`
   (and the .pdf the same way). Clavel is fine with the repo being public.
