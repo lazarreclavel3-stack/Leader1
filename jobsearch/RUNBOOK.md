@@ -47,6 +47,7 @@ resume tailored to that posting, built in the approved format.
 - Put each evidence bullet under its real employer from the *Career Evidence* Organization column. Earlier
   financial-services evidence (E028–E031: PFP Financial, American Express consulting, First Providence) goes
   in its own "EARLIER FINANCIAL SERVICES EXPERIENCE" section, never under Lazarre Consulting Group (see runs/2026-10-21/make_specs.py). base_cfo.json was updated 2026-11-04 to the Conflict Review choices (MBA 2023, Osborne Jan 2023–Oct 2025 and $80M, Maroon Mar 2024, Lazarre Consulting Group Dec 2016–Present).
+- Browser helpers live in jobsearch/tools/ (links.js lists Built In job cards, full.js reads a posting, pg.js dumps any page); the scratchpad gets wiped.
 - Pattern that works: a small per-day script that copies base_cfo.json and, per job, sets the tagline,
   profile and capability list, reorders bullets by the evidence IDs the posting cares about most, and adds
   relevant extra evidence bullets (max 6 per role). See `runs/2026-10-19/make_specs.py`.
